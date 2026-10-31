@@ -1,0 +1,24 @@
+{
+  "name": "quadratic-funding",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Quadratic Funding DApp — Foundry contracts + React/TypeScript frontend on Sepolia",
+  "license": "MIT",
+  "scripts": {
+    "build:contracts": "forge build",
+    "test:contracts": "forge test -vv",
+    "fmt:check": "forge fmt --check",
+    "dev": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "preview:frontend": "npm --prefix frontend run preview",
+    "typecheck:frontend": "npm --prefix frontend run typecheck",
+    "lint:frontend": "npm --prefix frontend run lint"
+  },
+  "devDependencies": {
+    "foundry": "^0.0.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
